@@ -7,11 +7,11 @@ import seaborn as sns
 # st.title("dv")
 st.set_page_config(page_title="dv",
 	page_icon="🤣")
-st.title("data visualization with streamit")
+st.title("data visualization with streamlitit")
 with st.sidebar:
-	uplode=st.file_uploader("uplodde csv")
+	uplode=st.file_uploader("upload csv")
 
-	
+
 if uplode is not None:
 	df=pd.read_csv(uplode)
 	st.dataframe(df.head())
