@@ -1,1 +1,5 @@
-# stream-dv
+streamlit
+pandas
+seaborn
+numpy
+matplotlib
